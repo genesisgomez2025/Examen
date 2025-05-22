@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Sitio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <script>
+  function cerrarSesion() {
+    // Simula cerrar sesión redirigiendo al login
+    window.location.href = "index.html";
+  }
+</script>
+
+  <header>
+    <h1>Leonardo da Vinci</h1>
+    <p class="subtitulo">Genio del Renacimiento</p>
+  </header>
+
+  <!-- Barra de navegación con menú a la izquierda y logo a la derecha -->
+  <div class="nav-bar">
+    <nav class="menu">
+     <li><a href="menu.html">Inicio</a></li>
+     <li class="submenu">
+
+     <a href="pagina1.html">Biografía</a>
+    <ul>
+      <li><a href="pagina2.html">Aportes a la Ciencia</a></li>
+    </ul>
+     </li>
+
+       <li class="submenu">
+      <a href="pagina3.html">Obras Artisticas</a>
+        <ul>
+      <li><a href="pagina4.html">Legado Artistico</a></li>   
+    </ul>
+     </li>
+     
+      <li class="submenu">
+      <a href="pagina5.html">Inventos</a>
+      <ul>
+     <li><a href="pagina6.html">Renacimiento</a></li>   
+     </ul>
+     </li>
+
+      <li class="submenu">
+      <a href="pagina7.html">Estudios Anotomicos</a>
+      <ul>
+        <li><a href="pagina8.html">Frases y legado</a></li>  
+      </ul>
+      </li>
+
+       <li class="submenu">
+      <a href="pagina9.html">Curiosidades</a>
+      <ul>
+        <li><a href="pagina10.html">Aportes a la ciencia y observacion de la naturaleza</a></li>  
+      </ul>
+    </li>
+
+    </nav>
+    <div class="logo">
+      <img src="img/logo.png" alt="Logo">
+    </div>
+  </div>
+    <div style="position: absolute; top: 20px; right: 20px; display: flex; align-items: center; gap: 10px;">
+  <button onclick="cerrarSesion()" style="padding: 5px 10px; cursor: pointer;">Cerrar sesión</button>
+</div>
+
+  <main>
+    <h2><marquee behavior="alternate">Aportes a la Ciencia</marquee></h2> <img id="ciencia" src="img/ciencia.jpg" alt="Ciencia">
+    <p>Leonardo da Vinci fue un polímata renacentista con importantes contribuciones a la ciencia. Sus estudios anatómicos, ingeniería, matemáticas y física fueron pioneros para su época, y sentaron las bases para el método científico moderno. </p>
+ <justificado>
+   <p>Aportaciones a la Ciencia:
+    <br>
+    <p><strong>Anatomía:</strong>
+Realizó estudios detallados del cuerpo humano, incluyendo el sistema muscular, tendones, órganos reproductivos, corazón y el ojo. Sus dibujos anatómicos eran sorprendentemente precisos, incluso antes de que se entendiera la circulación de la sangre correctamente. 
+<br>
+<br>
+<strong>Ingeniería:</strong>
+Diseñó numerosas máquinas y mecanismos, incluyendo un helicóptero, un paracaídas, un submarino, y sistemas con palancas y ruedas dentadas. Sus diseños mostraban una gran comprensión de la física y la ingeniería. 
+<br>
+<br>
+<strong>Matemáticas y Geometría:</strong>
+Utilizó las matemáticas y la geometría para comprender el mundo, incluyendo la perspectiva en la pintura. Sus estudios sobre geometría y topología tienen aplicaciones en la teoría de cuerdas y la mecánica cuántica. 
+<br>
+<br>
+<strong>Física:</strong>
+Observó y analizó fenómenos naturales, como el movimiento del agua y el vuelo de las aves. Sus estudios inspiraron la creación del método científico moderno, que prioriza la observación y la experimentación. 
+<br>
+<br>
+<strong>Neurociencia:</strong>
+Realizó experimentos y observaciones sobre el sistema nervioso, incluyendo el bulbo olfatorio, los nervios craneales y los ventrículos cerebrales. Sus trabajos contribuían al conocimiento de la neurofisiología, incluso antes de que se entendiera completamente. 
+<br>
+<br>
+<strong>Método Científico:</strong>
+Leonardo da Vinci fue uno de los primeros en aplicar el método científico, basado en la observación, la experimentación y la deducción. Sus estudios establecieron la base para el desarrollo de la ciencia moderna. 
+<br>
+<br>
+<strong>Impacto en la Ciencia:</strong>
+Los estudios de Leonardo da Vinci sentaron las bases para el desarrollo de la ciencia moderna. Sus diseños inspiraron a científicos, ingenieros y artistas en los siglos posteriores. Su enfoque en la observación y la experimentación fue un paso crucial para el desarrollo del método científico. </p>
+
+<p>En resumen: Leonardo da Vinci fue un científico visionario que hizo importantes contribuciones a la anatomía, la ingeniería, la matemática, la física, la neurociencia y el desarrollo del método científico. Sus estudios y diseños siguen siendo una fuente de inspiración y conocimiento en la actualidad.
+    Como ingeniero, Leonardo concibió ideas muy adelantadas a su tiempo, inventando conceptualmente el paracaídas, el helicóptero, un vehículo blindado de combate, el uso de energía solar concentrada, una calculadora, una teoría rudimentaria de placas tectónicas y el doble casco. </p>
+</justificado>
+
+<h2>Aportes científicos de Leonardo da Vinci</h2>
+<ol>
+  <li>Estudios anatómicos detallados del cuerpo humano.</li>
+  <li>Investigaciones sobre el funcionamiento del ojo y la visión.</li>
+  <li>Diseños de máquinas voladoras inspiradas en aves.</li>
+  <li>Estudios sobre el flujo del agua y la hidráulica.</li>
+  <li>Observaciones geológicas y estratificación de la Tierra.</li>
+  <li>Estudios del vuelo de los pájaros y principios aerodinámicos.</li>
+  <li>Diseños de instrumentos científicos como el odómetro y el anemómetro.</li>
+  <li>Investigación sobre el corazón y el sistema circulatorio.</li>
+</ol>
+</justificado>
+  </main>
+   <footer>
+    <p class="footer">&copy; 2025 - Sitio sobre Leonardo da Vinci creado por [GENESISGOMEZ]</p>
+  </footer>
+
+</body>
+</html>

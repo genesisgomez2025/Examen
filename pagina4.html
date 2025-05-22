@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Sitio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <script>
+  function cerrarSesion() {
+    // Simula cerrar sesión redirigiendo al login
+    window.location.href = "index.html";
+  }
+</script>
+
+  <header>
+    <h1>Leonardo da Vinci</h1>
+    <p class="subtitulo">Genio del Renacimiento</p>
+  </header>
+
+  <!-- Barra de navegación con menú a la izquierda y logo a la derecha -->
+  <div class="nav-bar">
+    <nav class="menu">
+     <li><a href="menu.html">Inicio</a></li>
+     <li class="submenu">
+
+     <a href="pagina1.html">Biografía</a>
+    <ul>
+      <li><a href="pagina2.html">Aportes a la Ciencia</a></li>
+    </ul>
+     </li>
+
+       <li class="submenu">
+      <a href="pagina3.html">Obras Artisticas</a>
+        <ul>
+      <li><a href="pagina4.html">Legado Artistico</a></li>   
+    </ul>
+     </li>
+     
+      <li class="submenu">
+      <a href="pagina5.html">Inventos</a>
+      <ul>
+     <li><a href="pagina6.html">Renacimiento</a></li>   
+     </ul>
+     </li>
+
+      <li class="submenu">
+      <a href="pagina7.html">Estudios Anotomicos</a>
+      <ul>
+        <li><a href="pagina8.html">Frases y legado</a></li>  
+      </ul>
+      </li>
+
+       <li class="submenu">
+      <a href="pagina9.html">Curiosidades</a>
+      <ul>
+        <li><a href="pagina10.html">Aportes a la ciencia y observacion de la naturaleza</a></li>  
+      </ul>
+    </li>
+
+    </nav>
+    <div class="logo">
+      <img src="img/logo.png" alt="Logo">
+    </div>
+  </div>
+ <div style="position: absolute; top: 20px; right: 20px; display: flex; align-items: center; gap: 10px;">
+  <button onclick="cerrarSesion()" style="padding: 5px 10px; cursor: pointer;">Cerrar sesión</button>
+</div>
+
+  <main><justificado>
+    <h2><marquee style="border:rgb(61, 70, 122) 3px SOLID">Obras de Leonardo da Vinci</marquee></h2> <img id="img-leonardo" src="img/davinci.jpg" alt="Leonardo da Vinci">
+   <p>
+Leonardo da Vinci fue un maestro del arte renacentista cuya creatividad y habilidad técnica dieron lugar a algunas de las obras más admiradas en la historia del arte. Su legado pictórico abarca desde retratos llenos de misterio hasta composiciones religiosas y estudios anatómicos. A través de su pintura, dibujo y bocetos, da Vinci dejó una profunda huella que combina belleza, ciencia y observación. A continuación, te presentamos una selección de sus obras más destacadas.
+</p>
+
+  <p>Sus pinturas son célebres. Por un lado, han sido copiadas e imitadas por los estudiantes, y por otro han sido el centro de debate y controversia entre los especialistas. Entre las cualidades, cabe destacar las técnicas pictóricas innovadoras que empleó, el sentido de la composición y el uso sutil de los esfumados de colores, el conocimiento profundo de la anatomía humana y animal, de la botánica y la geología, la utilización que hacía de la luz, el interés por la fisonomía, la capacidad de reflejar la forma en que los humanos utilizan el registro de las emociones y las expresiones gestuales.
+  </p>
+  </justificado>
+  <table border="1" cellpadding="10" cellspacing="0" style="width: 70%; border-collapse: collapse; text-align: left; font-family: Arial, sans-serif;">
+  <thead style="background-color: #333; color: white;">
+    <tr>
+      <th>Obra</th>
+      <th>Tipo</th>
+      <th>Cómo fue realizada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>La Mona Lisa</td>
+      <td>Pintura</td>
+      <td>Usó óleo sobre tabla de álamo; técnica de sfumato para difuminar contornos.</td>
+    </tr>
+    <tr>
+      <td>La Última Cena</td>
+      <td>Pintura mural</td>
+      <td>Experimentó con temple y óleo sobre yeso seco en lugar del fresco tradicional.</td>
+    </tr>
+    <tr>
+      <td>El Hombre de Vitruvio</td>
+      <td>Dibujo anatómico</td>
+      <td>Dibujado con pluma y tinta como estudio de proporciones humanas basado en Vitruvio.</td>
+    </tr>
+    <tr>
+      <td>La Virgen de las Rocas</td>
+      <td>Pintura</td>
+      <td>Usó óleo sobre madera, con paisajes rocosos y técnica de claroscuro.</td>
+    </tr>
+    <tr>
+    <td>La Dama del Armiño</td>
+      <td>Retrato</td>
+      <td>Pintado al óleo, destacando el uso de luz y expresividad en el rostro y el animal.</td>
+    </tr>
+    <tr>
+      <td>San Juan Bautista</td>
+      <td>Pintura</td>
+      <td>Óleo sobre madera, muestra a Juan con una expresión misteriosa y un fondo oscuro.</td>
+    </tr>
+    <tr>
+      <td>La Anunciación</td>
+      <td>Pintura</td>
+      <td>Óleo y témpera sobre tabla; representa a la Virgen María con el arcángel Gabriel.</td>
+    </tr>
+  </tbody>
+</table>
+  </main>
+   </main>
+    <footer>
+    <p class="footer">&copy; 2025 - Sitio sobre Leonardo da Vinci creado por [GENESISGOMEZ]</p>
+  </footer>
+
+
+
+
+ 
+   

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+  <script>
+  function cerrarSesion() {
+    // Simula cerrar sesión redirigiendo al login
+    window.location.href = "index.html";
+  }
+</script>
+
+ <header>
+    <h1>Leonardo da Vinci</h1>
+    <p class="subtitulo">Genio del Renacimiento</p>
+  </header>
+
+  <!-- Barra de navegación con menú a la izquierda y logo a la derecha -->
+  <div class="nav-bar">
+    <nav class="menu">
+     <li><a href="menu.html">Inicio</a></li>
+     <li class="submenu">
+     <a href="pagina1.html">Biografía</a>
+    <ul>
+      <li><a href="pagina2.html">Aportes a la Ciencia</a></li>
+    </ul>
+     </li>
+
+       <li class="submenu">
+      <a href="pagina3.html">Obras Artisticas</a>
+        <ul>
+      <li><a href="pagina4.html">Legado Artistico</a></li>   
+    </ul>
+     </li>
+     
+      <li class="submenu">
+      <a href="pagina5.html">Inventos</a>
+      <ul>
+     <li><a href="pagina6.html">Renacimiento</a></li>   
+     </ul>
+     </li>
+
+      <li class="submenu">
+      <a href="pagina7.html">Estudios Anotomicos</a>
+      <ul>
+        <li><a href="pagina8.html">Frases y legado</a></li>  
+      </ul>
+      </li>
+
+       <li class="submenu">
+      <a href="pagina9.html">Curiosidades</a>
+      <ul>
+        <li><a href="pagina10.html">Aportes a la ciencia y observacion de la naturaleza</a></li>  
+      </ul>
+    </li>
+    
+    </nav>
+    <div class="logo">
+      <img src="img/logo.png" alt="Logo">
+    </div>
+  </div>
+   <div style="position: absolute; top: 20px; right: 20px; display: flex; align-items: center; gap: 10px;">
+  <button onclick="cerrarSesion()" style="padding: 5px 10px; cursor: pointer;">Cerrar sesión</button>
+</div>
+
+
+
+  <main>
+    <justificado>
+      
+      <h2>Biografía</h2>
+      <p>Leonardo di ser Piero da Vinci  escuchar (Vinci, 15 de abril de 1452[2]​-Amboise, 2 de mayo de 1519), más conocido como Leonardo da Vinci, fue un polímata florentino del Renacimiento italiano. Fue a la vez pintor, anatomista, arquitecto, paleontólogo,[3]​botánico, escritor, escultor, filósofo, ingeniero, inventor, músico, poeta y urbanista. Falleció acompañado de Francesco Melzi,[4]​ a quien legó sus proyectos, diseños y pinturas.[2]​ Tras pasar su infancia en su ciudad natal, Leonardo estudió con el pintor florentino Andrea de Verrocchio. Sus primeros trabajos de importancia fueron creados en Milán al servicio del duque Ludovico Sforza. Trabajó a continuación en Roma, Bolonia y Venecia, y pasó sus últimos años en Francia, por invitación del rey Francisco I.</p>
+    
+      <h2>Obras Famosas</h2>
+      <ul>
+        <li>La Mona Lisa</li>
+        <li>La Última Cena</li>
+        <li>El Hombre de Vitruvio</li>
+      </ul>
+  
+      <h2>Inventos</h2>
+      <p>Diseñó máquinas voladoras, tanques, puentes y mucho más...</p>
+  
+      <h2>Curiosidades</h2>
+      <ul>
+        <li>Escribía en espejo.</li>
+        <li>Era vegetariano.</li>
+      </ul>
+    </justificado>
+  
+
+
+      <img id="img-leonardo" src="img/01leonardo.jpg" alt="Leonardo da Vinci">
+    
+  </main>
+  
+  <footer>
+    <p class="footer">&copy; 2025 - Sitio sobre Leonardo da Vinci creado por [GENESISGOMEZ]</p>
+  </footer>
+
+</body>
+</html>
+    
+  

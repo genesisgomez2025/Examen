@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Sitio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <script>
+  function cerrarSesion() {
+    // Simula cerrar sesión redirigiendo al login
+    window.location.href = "index.html";
+  }
+</script>
+
+
+  <header>
+    <h1>Leonardo da Vinci</h1>
+    <p class="subtitulo">Genio del Renacimiento</p>
+  </header>
+
+  <!-- Barra de navegación con menú a la izquierda y logo a la derecha -->
+  <div class="nav-bar">
+    <nav class="menu">
+     <li><a href="menu.html">Inicio</a></li>
+     <li class="submenu">
+
+     <a href="pagina1.html">Biografía</a>
+    <ul>
+      <li><a href="pagina2.html">Aportes a la Ciencia</a></li>
+    </ul>
+     </li>
+
+       <li class="submenu">
+      <a href="pagina3.html">Obras Artisticas</a>
+        <ul>
+      <li><a href="pagina4.html">Legado Artistico</a></li>   
+    </ul>
+     </li>
+     
+      <li class="submenu">
+      <a href="pagina5.html">Inventos</a>
+      <ul>
+     <li><a href="pagina6.html">Renacimiento</a></li>   
+     </ul>
+     </li>
+
+      <li class="submenu">
+      <a href="pagina7.html">Estudios Anotomicos</a>
+      <ul>
+        <li><a href="pagina8.html">Frases y legado</a></li>  
+      </ul>
+      </li>
+
+       <li class="submenu">
+      <a href="pagina9.html">Curiosidades</a>
+      <ul>
+        <li><a href="pagina10.html">Aportes a la ciencia y observacion de la naturaleza</a></li>  
+      </ul>
+    </li>
+
+    </nav>
+    <div class="logo">
+      <img src="img/logo.png" alt="Logo">
+    </div>
+  </div>
+  <div style="position: absolute; top: 20px; right: 20px; display: flex; align-items: center; gap: 10px;">
+  <button onclick="cerrarSesion()" style="padding: 5px 10px; cursor: pointer;">Cerrar sesión</button>
+</div>
+
+  <main>
+  <h2><marquee direction="right">Inventos de Leonardo da Vinci</marquee></h2>
+
+  <p style="text-align: justify;">
+    Leonardo da Vinci no solo fue un genio del arte, sino también un gran inventor. Diseñó máquinas y mecanismos adelantados a su época, algunos de los cuales fueron precursores de tecnologías actuales. Sus estudios de anatomía, vuelo, hidráulica y mecánica se registraron en detallados bocetos e ideas.
+  </p>
+
+  <h3>Preguntas importantes</h3>
+  <ul>
+    <li><em>¿Qué tipo de inventos imaginó Leonardo da Vinci?</em></li>
+    <li><em>¿Se construyeron realmente sus diseños en su época?</em></li>
+    <li><em>¿Cómo influyeron sus inventos en la ciencia moderna?</em></li>
+  </ul>
+
+  <h3>Inventos destacados</h3>
+   <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: nowrap;">
+  <figure style="text-align: center;">
+      <img src="img/tornillo.jpg" alt="Tornillo aéreo" style="width: 170px;">
+      <figcaption>Tornillo aéreo (precursor del helicóptero)</figcaption>
+    </figure>
+
+    <figure style="text-align: center;">
+      <img src="img/tanque.jpg" alt="Tanque blindado" style="width: 170px;">
+      <figcaption>Tanque blindado (máquina de guerra)</figcaption>
+    </figure>
+
+     <figure style="text-align: center;">
+      <img src="img/maquina.jpg" alt="Máquina voladora" style="width: 170px;">
+      <figcaption>Máquina voladora (alas humanas)</figcaption>
+    </figure>
+
+    <figure style="text-align: center;">
+      <img src="img/robot.jpg" alt="Robot de Leonardo" style="width: 170px;">
+      <figcaption>Autómata (robot de armadura)</figcaption>
+    </figure>
+
+    <figure style="text-align: center;">
+      <img src="img/paracaida.jpg" alt="Paracaídas" style="width: 170px;">
+      <figcaption>Paracaídas (pirámide textil)</figcaption>
+    </figure>
+
+    <figure style="text-align: center;">
+      <img src="img/puente.jpg" alt="Puente giratorio" style="width: 170px;">
+      <figcaption>Puente giratorio (puente portátil)</figcaption>
+    </figure>
+  </div>
+  <justificado>
+  <h3>Invenciones</h3>
+  <p><strong>Tornillo Aéreo:</strong> Diseñado como un precursor del helicóptero. Leonardo pensó que si se hacía girar rápidamente, el aparato levantaría vuelo. Aunque nunca funcionó realmente, fue una idea muy avanzada para su época.</p>
+
+  <p><strong>Tanque Blindado:</strong> Era una máquina de guerra en forma de caparazón con cañones en su interior. Se movía con fuerza humana desde dentro. Su diseño inspiró vehículos de combate modernos.</p>
+
+  <p><strong>Máquina Voladora:</strong> Inspirada en el vuelo de los pájaros, era una estructura con alas movidas por el cuerpo humano. Aunque no funcionó, mostró un profundo estudio de la aerodinámica.</p>
+
+  <p><strong>Autómata (Robot de Leonardo):</strong> Era una armadura capaz de moverse sola gracias a un sistema de poleas. Se considera uno de los primeros diseños de un robot mecánico.</p>
+
+<p><strong>Paracaídas:</strong> Da Vinci imaginó un dispositivo piramidal de tela para ralentizar la caída desde las alturas. Fue probado siglos después y demostró funcionar.</p>
+
+  <p><strong>Puente Giratorio:</strong> Diseñado para ser portátil y utilizado por ejércitos. Era ligero, fácil de montar y desmontar, pensado para cruzar ríos rápidamente en campaña.</p>
+  </justificado>
+   </main>
+   <footer>
+    <p class="footer">&copy; 2025 - Sitio sobre Leonardo da Vinci creado por [GENESISGOMEZ]</p>
+  </footer>
+</body>
+</html>
+      
+
